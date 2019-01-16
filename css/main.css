@@ -357,4 +357,371 @@ ul li {
   padding-left: 20px;
   margin-bottom: 20px; }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+.nav {
+  height: 70px;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.nav a {
+  margin: 10px 0 0 10px;
+  background-color: white;
+  float: left;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; }
+
+.dropdown {
+  margin: 10px 0 0 10px;
+  float: left; }
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-family: inherit;
+  color: #666666;
+  padding: 14px 16px;
+  background-color: white;
+  margin: 0; }
+
+.drop_content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.drop_content a {
+  display: block;
+  float: none;
+  color: #e38f84;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left; }
+
+.nav a:hover, dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  transition: 1s ease-in-out; }
+
+.dropdown:hover .drop_content {
+  display: block;
+  transition: 1s ease-in-out; }
+
+.banner {
+  background-image: url(../images/Code4CT-homepage.jpg);
+  width: 100%;
+  height: 800px;
+  background-color: #4e4e4e;
+  margin-top: 10px;
+  background-size: cover;
+  background-blend-mode: multiply; }
+
+.mainHeading {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  padding: 40px 50px;
+  color: white;
+  height: 50%;
+  top: 20%; }
+
+.about {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto;
+  height: 600px;
+  width: 70%;
+  padding-top: 20px; }
+
+.about > div {
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.images_gallery {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-bottom: 115px; }
+  .images_gallery .images_gallery img:hover {
+    transform: scale(1.2); }
+
+.images_gallery > div {
+  display: grid;
+  width: 250px;
+  height: 230px; }
+
+.para {
+  padding: 20px;
+  height: 500px;
+  margin-top: 11px;
+  margin-left: 150px;
+  width: 439px; }
+
+.icons {
+  background-color: black;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 200px;
+  width: 100%;
+  padding-top: 10px; }
+
+.icons > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-right: 20px; }
+
+.portfolio {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 100px; }
+  .portfolio p {
+    padding-right: 300px;
+    font-size: 18px; }
+
+.gallery_container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 20px; }
+
+.gallery_container > div {
+  text-align: center;
+  font-size: 30px; }
+
+.portfolio1 {
+  grid-column: 1;
+  grid-row: 1;
+  height: 200px;
+  width: 250px; }
+
+.portfolio2 {
+  grid-column: 3;
+  grid-row: 1 / span 3;
+  width: 500px; }
+  .portfolio2 img {
+    width: 450px;
+    height: 450px; }
+
+.portfolio3 {
+  color: green;
+  height: 200px;
+  width: 250px; }
+
+.portfolio4 {
+  grid-column: 1;
+  grid-row: 3;
+  height: 200px;
+  width: 250px;
+  padding-bottom: 20px; }
+
+.portfolio5 {
+  grid-row: 3;
+  height: 200px;
+  width: 250px;
+  padding-bottom: 20px; }
+
+/*About section*/
+.aboutPreview {
+  margin: 10px; }
+
+.aboutPreview button {
+  padding: 8px 14px;
+  width: 130px;
+  font-size: 18px;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px; }
+
+.aboutPreview button:hover {
+  width: 143px; }
+
+.aboutPreview p {
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  font-size: 16px; }
+
+.aboutPreview .imageGrid img:hover {
+  transform: scale(1.2); }
+
+.largeImage {
+  background-size: cover; }
+
+.meet_the_team {
+  padding-right: 100px;
+  padding-left: 120px;
+  padding-top: 30px; }
+  .meet_the_team h1 {
+    margin-left: 45px; }
+  .meet_the_team .lineOuter {
+    margin-left: 45px; }
+
+.team_grid {
+  display: grid;
+  /* Creating Columns */
+  grid-template-columns: 25% 25% 25% 25%;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 15px;
+  background-color: white;
+  color: black; }
+
+.team_grid > div {
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+  height: 250px; }
+
+.team_grid_2 {
+  display: grid;
+  /* Creating Columns */
+  grid-template-columns: 25% 25% 25% 25%;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 15px;
+  background-color: white;
+  color: black; }
+
+.team_grid_2 > div {
+  text-align: center;
+  font-size: 14px;
+  text-align: left;
+  height: 250px; }
+
+.counter {
+  padding: 50px 5%;
+  width: 90%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white; }
+
+.counter h1, .counter p {
+  text-align: center; }
+
+.counter .line {
+  height: 7px;
+  width: 20%;
+  background-color: #e38f84;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+.counter h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.counter p {
+  margin-bottom: 40px; }
+
+.subscribe {
+  width: 100%;
+  height: 150px; }
+
+.carousel {
+  background-color: black;
+  width: 100%;
+  height: 200px; }
+
+/* Secondary footer */
+.sub_footer {
+  margin: 10px;
+  text-align: left; }
+
+/* Primary Footer */
+.primaryFooter {
+  padding: 10px;
+  background-color: #e38f84; }
+
+.primaryFooter {
+  display: grid;
+  width: 99%;
+  height: 40px;
+  background-color: #e38f84;
+  grid-template-columns: 1fr 1fr; }
+  .primaryFooter i {
+    color: white;
+    padding: 5px; }
+
+.secondaryNav {
+  padding: 5% 0;
+  width: 100%;
+  background-color: #ccc;
+  border: 1px solid black; }
+
+.secondaryNav div div {
+  width: 200px;
+  display: block;
+  margin: 0 auto; }
+
+.secondaryNav div div h1 {
+  text-align: center;
+  margin: 20px; }
+
+.traverselinks {
+  text-align: center;
+  color: white; }
+
+.traverselinks a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white; }
+
+.info {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto;
+  height: 500px;
+  width: 100%;
+  padding-top: 20px; }
+
+.about > div {
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.welcomeImage {
+  padding-top: 60px;
+  padding-right: 250px; }
+
+.whoWeAreSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contactSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  padding: 100px;
+  margin-left: 50px;
+  color: #666666; }
+
 /*# sourceMappingURL=main.css.map */
