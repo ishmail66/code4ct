@@ -64,8 +64,7 @@ input {
   text-align: justify !important;
   text-justify: distribute-all-lines;
   font-size: 0 !important;
-  text-rendering: optimizespeed;
-  padding: 100px; }
+  text-rendering: optimizespeed; }
 
 ._grid:after {
   content: "";
@@ -134,7 +133,7 @@ input {
   padding: .5rem; }
 
 .product-name {
-  font: 300 2.4em/1 "Lato", sans-serif;
+  font: 300 1em/1 "Lato", sans-serif;
   letter-spacing: -.025em;
   margin: 0 0 .125em; }
 
@@ -144,7 +143,7 @@ input {
 
 .product-single-price {
   margin-top: -1rem;
-  font-size: 2.4em; }
+  font-size: 1.4em; }
 
 /**
  * @section: product-modifiers;
@@ -246,6 +245,9 @@ input {
   transition: all .5s ease;
   transform: translate3d(0, -100%, 0);
   opacity: 0; }
+
+.product-desc {
+  font-size: 90%; }
 
 .logo a {
   margin: 0;

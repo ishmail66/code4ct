@@ -85,8 +85,7 @@ body{
     text-justify: distribute-all-lines;
     font-size: 0 !important;
     text-rendering: optimizespeed;
-    // my own code to fit all the words
-    padding: 100px;
+    // my own code to fit
   }
   ._grid:after {
     content: "";
@@ -157,7 +156,7 @@ body{
     padding: .5rem;
   }
   .product-name {
-    font: 300 2.4em/1 "Lato", sans-serif;
+    font: 300 1em/1 "Lato", sans-serif;
     letter-spacing: -.025em;
     margin: 0 0 .125em;
   }
@@ -167,7 +166,7 @@ body{
   }
   .product-single-price {
     margin-top: -1rem;
-    font-size: 2.4em;
+    font-size: 1.4em;
   }
   
   /**
@@ -272,4 +271,8 @@ body{
     transition: all .5s ease;
     transform: translate3d(0, -100%, 0);
     opacity: 0;
+  }
+
+  .product-desc{
+      font-size: 90%;
   }
