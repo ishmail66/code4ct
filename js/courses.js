@@ -155,7 +155,7 @@ var app = {
         {
             "name": "Networking",
             "price": "450",
-            "desc": "Learn how to present yourself professionally when networking and put your skills to the test by attending local tech events. You will attend a training session and attend one event of your choice. "
+            "desc": "Networking probably feels like a brutal trial by fire. These 17 strategies will help you do it well and keep your sanity "
         },
         {
             "name": "Digital Communication Skills",
