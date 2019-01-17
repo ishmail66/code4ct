@@ -170,8 +170,7 @@ input {
   margin-top: 3.35rem;
   background-color: #e74c3c;
   color: #ecf0f1;
-  width: 100%;
-  visibility: hidden; }
+  width: 100%; }
 
 .product-modifiers:hover .product-remove {
   visibility: visible; }
@@ -912,6 +911,10 @@ ul li {
   padding: 100px;
   margin-left: 50px;
   color: #666666; }
+
+.product-remove {
+  color: #555;
+  position: static; }
 
 @media screen and (min-width: 1200px) {
   .icons div {

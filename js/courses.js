@@ -58,8 +58,7 @@ var app = {
         {
             "name": "Create With Code Series",
             "price": "1800",
-            "img": "http://fillmurray.com/g/159/159",
-            "desc": "The Create with Code series is designed to give learners an introduction to the exciting world of coding, helping them to explore how creative coding can be. The package includes a testing day in which learners’ aptitude is assessed.                                                           Stream includes                                                                 2 x Create with Code courses                                                    1 x Programming Aptitude Test                                                               "
+            "desc": "The Create with Code series is designed to give learners an introduction to the exciting world of coding, helping them to explore how creative coding can be. The package includes a testing day in which learners’ aptitude is assessed.                                                           Stream includes                                                                 2 x Create with Code courses &                                                    1 x Programming Aptitude Test."
         },
         {
             "name": "Tech Innovators Level 1",
