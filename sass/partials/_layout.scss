@@ -428,3 +428,12 @@ h1{
   }
 
   //    courses
+
+._grid.cart-totals{
+  position:sticky;
+  bottom:0;
+  background-color:$main-color;
+  color:black;
+  margin-left: 40px;
+}
+

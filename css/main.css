@@ -880,6 +880,13 @@ ul li {
   margin-left: 50px;
   color: #666666; }
 
+._grid.cart-totals {
+  position: sticky;
+  bottom: 0;
+  background-color: #e38f84;
+  color: black;
+  margin-left: 40px; }
+
 @media screen and (min-width: 1200px) {
   .icons div {
     margin: 0; }
