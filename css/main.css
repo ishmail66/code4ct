@@ -84,7 +84,8 @@ input {
   border: none;
   padding: .5em .75em;
   text-align: center;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-top: -22px; }
 
 ._btn:hover,
 .cart-totals:hover ._btn {
@@ -911,10 +912,6 @@ ul li {
   padding: 100px;
   margin-left: 50px;
   color: #666666; }
-
-.product-remove {
-  color: #555;
-  position: static; }
 
 @media screen and (min-width: 1200px) {
   .icons div {
