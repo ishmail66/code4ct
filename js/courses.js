@@ -128,34 +128,29 @@ var app = {
             "desc": "Work in groups to create and present a code project that addresses a particular issue. "
         },
         {
-            "name": "Hackathon",
-            "price": "TBC",
-            "desc": "Learn how to manage and deploy code to a server environment so that you can host your own web pages."
-        },
-        {
             "name": "Industry Immersion",
             "price": "1300",
-            "desc": "Spend a week at a tech company and gain experience in industry."
+            "desc": "We send you to a company of teachnoly of different fields so you can see hands on what they do.."
         },
         {
             "name": "Code Conversation",
             "price": "250",
-            "desc": "Learn about tech careers from a panel of working professionals who will share their experiences with you."
+            "desc": "Sometimes people don’t want to engage in conversation. For whatever reason,However we got the people with coding experience that is willing to talk."
         },
         {
             "name": "Presentation Skills",
             "price": "300",
-            "desc": "Learn how to present an idea or project in a compelling manner. "
+            "desc": "22 Presentation Skills. (The Big List) "
         },
         {
             "name": "CV & LinkedIn",
             "price": "250",
-            "desc": "Learn how to present your skills effectively. "
+            "desc": "10 steps to a successful CV. "
         },
         {
             "name": "Networking",
             "price": "450",
-            "desc": "Networking probably feels like a brutal trial by fire. These 17 strategies will help you do it well and keep your sanity "
+            "desc": "Networking probably feels like a brutal trial by fire. These 17 strategies will help you do it well and keep your sanity. "
         },
         {
             "name": "Digital Communication Skills",
