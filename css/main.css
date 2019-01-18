@@ -197,8 +197,9 @@ input {
  * @extends: _grid;
  */
 .cart-totals {
-  border-top: 1px solid #bdc3c7;
-  margin-bottom: 3rem; }
+  position: sticky;
+  z-index: 1px;
+  bottom: 0; }
 
 .cart-totals ._column {
   width: 19.984013%;
