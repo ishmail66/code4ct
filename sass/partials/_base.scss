@@ -128,7 +128,7 @@ body{
   .shopping-cart--list-item {
     border: 1px solid #bdc3c7;
     margin-bottom: 3rem;
-    height: 10rem;
+    height: 15rem;
     overflow: hidden;
   }
   .shopping-cart--list-item:hover,
@@ -196,7 +196,9 @@ body{
   .product-plus{width: 33.330557%;
     background-color: transparent;
     color: #686868;
-    text-align: center;}
+    text-align: center;
+    
+}
 
   .product-qty {
     padding: .35em .75em;
