@@ -82,10 +82,10 @@ input {
   display: inline-block;
   background-color: #bdc3c7;
   border: none;
-  padding: .5em .75em;
+  padding: 1.2em 1em;
   text-align: center;
   font-weight: 300;
-  margin-top: -22px; }
+  margin-top: 0px; }
 
 ._btn:hover,
 .cart-totals:hover ._btn {
@@ -106,7 +106,7 @@ input {
 .shopping-cart--list-item {
   border: 1px solid #bdc3c7;
   margin-bottom: 3rem;
-  height: 15rem;
+  height: 16rem;
   overflow: hidden; }
 
 .shopping-cart--list-item:hover,
@@ -155,18 +155,8 @@ input {
   text-align: right;
   border-left: 1px solid #bdc3c7; }
 
-.product-qty {
-  width: 33.330557%;
-  background-color: transparent;
-  color: #686868;
-  text-align: center; }
-
-.product-subtract {
-  width: 33.330557%;
-  background-color: transparent;
-  color: #686868;
-  text-align: center; }
-
+.product-qty,
+.product-subtract,
 .product-plus {
   width: 33.330557%;
   background-color: transparent;
