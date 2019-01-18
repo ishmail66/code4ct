@@ -63,22 +63,19 @@ var app = {
         {
             "name": "Tech Innovators Level 1",
             "price": "4200",
-            "img": "http://shechive.files.wordpress.com/2011/08/odd-products-28.jpg?w=159&h=159",
-            "desc": "Covering an introduction to web development as well as an introduction to design thinking, this course helps a learner explore how technology can be used for social innovation while developing fundamentals knowledge of programming. "
+            "desc": "Covering an introduction to web development as well as an introduction to design thinking, this course helps a learner explore how technology can be used for social innovation while developing fundamentals knowledge of programming. Stream includes, Launch event and Parent Information Session, Login to the online learning portal, 1 x Level 1 Coding course, 1 x Level 1 Social Innovation Course, 2 x Career and Life Skills workshops, Certificate of completion. Prerequisites: Meet application requirements. Recommended: Create Websites with Code, Create Music/ Animations with Code."
         },
         {
             "name": "Tech Innovators Level 2",
             "price": "5600",
-            "img": "http://media-cache-ec2.pinimg.com/550x/c7/02/8f/c7028f260ae030ba66494ee75407192f.jpg",
-            "desc": "Going beyond the basics, this course enables a learner move from basic coding proficiency to the level where they are able to implement a basic coding project independently. The course has a strong focus on developing leadership skills and offers abundant opportunity for learners to interact with the tech industry. "
+            "desc": "Going beyond the basics, this course enables a learner move from basic coding proficiency to the level where they are able to implement a basic coding project independently. The course has a strong focus on developing leadership skills and offers abundant opportunity for learners to interact with the tech industry. Stream includes: Launch event and Parent Information Session. Login to the online learning portal, 1 x Level 2 Coding course, 1 x Level 2 Social Innovation Course, 5 x Career and Life Skills workshops, Certificate of completion. Prerequisites: Tech Innovators Level 1 or equivalent. "
         }
 
         ,
         {
             "name": "Intro to Coding: Web Pages",
             "price": "250",
-            "img": "http://media-cache-ec2.pinimg.com/550x/c7/02/8f/c7028f260ae030ba66494ee75407192f.jpg",
-            "desc": "Code a simple one-page website using HTML and JQuery."
+            "desc": "Code a simple one-page website using HTML and JQuery. Duration: 3 hours"
         },
         {
             "name": "Intro to Coding: Music",
