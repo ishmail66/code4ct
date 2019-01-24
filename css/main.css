@@ -976,5 +976,28 @@ ul li {
 
   .meetOurTeam .teamGrid {
     margin: 30px 0; } }
+@media screen and (max-width: 320px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 25%; }
+
+  .images_gallery {
+    display: none; }
+
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    height: 1200px;
+    width: 374px;
+    padding-left: 200px; }
+
+  .gallery_container {
+    display: none; }
+
+  .portfolio p {
+    font-size: 80px; } }
 
 /*# sourceMappingURL=main.css.map */
