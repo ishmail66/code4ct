@@ -61,7 +61,7 @@
 .mainButtons {
     width: 36.250em;
     display: block;
-    margin: 0 auto; 
+    margin: 0 360px; 
 }
   
   .codingButton {
@@ -86,7 +86,13 @@
   .mainButtons button:hover {
     background-color: #555555;
     border-color: white;
-    padding-right: 1.063em; 
+    padding-right: 5%; 
+}
+
+.readMore button:hover{
+    background-color: #555555;
+    border-color: white;
+    padding-right: 5%; 
 }
 
 .lineOuter{
@@ -119,7 +125,10 @@
  }
 
  button:hover {
-    padding-right: 15px; }
+    padding-left:5%;
+ }
+
+
 
 .icons {
     background-color: black;

@@ -20,7 +20,7 @@ img:hover {
   position: absolute;
   line-height: 1.2em;
   top: 38px;
-  left: 522px;
+  left: 575px;
   font-weight: 600;
   font-size: 33px;
   transform: translate(-50%, 50%); }
@@ -32,7 +32,7 @@ img:hover {
   text-align: center;
   position: absolute;
   top: 148px;
-  left: 492px;
+  left: 575px;
   font-size: 100%;
   transform: translate(-50%, 50%); }
 
@@ -304,7 +304,7 @@ input {
 .mainButtons {
   width: 36.250em;
   display: block;
-  margin: 0 auto; }
+  margin: 0 360px; }
 
 .codingButton {
   font-size: 1.125em;
@@ -327,7 +327,12 @@ input {
 .mainButtons button:hover {
   background-color: #555555;
   border-color: white;
-  padding-right: 1.063em; }
+  padding-right: 5%; }
+
+.readMore button:hover {
+  background-color: #555555;
+  border-color: white;
+  padding-right: 5%; }
 
 .lineOuter {
   width: 10.5em;
@@ -353,7 +358,7 @@ input {
   text-align: center; }
 
 button:hover {
-  padding-right: 15px; }
+  padding-left: 5%; }
 
 .icons {
   background-color: black;
@@ -877,6 +882,24 @@ ul li {
 .traverselinks {
   text-align: center;
   color: white; }
+
+.impactSection {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  height: 200px; }
+
+.impactSection p {
+  color: white; }
+
+.bar {
+  float: left;
+  width: 25%;
+  text-align: center; }
+
+.bar-circle {
+  display: block;
+  margin: 0.7em auto; }
 
 .traverselinks a {
   font-size: 15px;

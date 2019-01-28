@@ -1,5 +1,6 @@
 // Layout
 // Styling of the navigation bar
+
 .navbar{
     position:sticky;
     top:0;
@@ -381,6 +382,30 @@ h1{
     text-align: center;
     color:white;
 }
+// counter
+.impactSection {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    height: 200px
+    
+}
+
+.impactSection p{
+    color: white;
+}
+
+.bar {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.bar-circle {
+    display: block;
+    margin: 0.7em auto;
+}
+
 .traverselinks a{
     font-size: 15px;
     text-decoration: none;
