@@ -395,6 +395,15 @@ a {
   text-decoration-line: none;
   text-decoration: none; }
 
+.mail a:hover {
+  color: #e38f84; }
+
+.aboutUs a:hover {
+  color: #e38f84; }
+
+.aboutUs a {
+  color: #666666; }
+
 .subscribe h1 {
   text-align: center;
   margin-top: 1.250em;

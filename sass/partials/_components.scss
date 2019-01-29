@@ -169,6 +169,19 @@ a{
     text-decoration: none;
 }
 
+.mail a:hover{
+    color:$main-color;
+
+}
+
+.aboutUs a:hover{
+    color:$main-color;
+}
+
+.aboutUs a{
+    color:$text-color;
+}
+
 // styling for subscribe section
 
 .subscribe h1{
