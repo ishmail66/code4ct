@@ -199,7 +199,9 @@ input {
 .cart-totals {
   position: sticky;
   z-index: 1px;
-  bottom: 0; }
+  bottom: 0;
+  background-color: #e38f84;
+  margin-left: 40px; }
 
 .cart-totals ._column {
   width: 19.984013%;

@@ -230,6 +230,8 @@ body{
     position: sticky;
     z-index: 1px;
     bottom: 0;
+    background-color: $main-color;
+    margin-left: 40px;
   }
   .cart-totals ._column {
     width: 19.984013%;
